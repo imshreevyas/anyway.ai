@@ -672,6 +672,7 @@ h6 {
 
 /* Aai Featurek Start*/
 .aai-feature-box {
+  height:220px;
   border-radius: 30px;
   padding: 20px;
   text-align: center;
@@ -1602,6 +1603,10 @@ Blog and Blog Detailss End
 @media (max-width: 576px) {
   .main-logo{
     height:45px !important;
+  }
+
+  .aai-feature-box{
+    height:260px;
   }
   .aai-hero-one {
     padding: 150px 0 60px 0;
