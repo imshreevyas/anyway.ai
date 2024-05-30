@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700;800&amp;display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;600;700;800&amp;display=swap");
 
 :root {
   --white: #ffffff;
@@ -27,7 +27,7 @@
 
 body,
 html {
-  font-family: "Sora", sans-serif;
+  font-family: "Lato", sans-serif;
   overflow-x: hidden;
 }
 
@@ -673,7 +673,7 @@ h6 {
 /* Aai Featurek Start*/
 .aai-feature-box {
   border-radius: 30px;
-  padding: 40px;
+  padding: 20px;
   text-align: center;
   position: relative;
   cursor: pointer;
@@ -1359,6 +1359,7 @@ Blog and Blog Detailss Start
 ***************************/
 .aai-post-wrapper {
   margin-bottom: 30px;
+  box-shadow: 1px 0px 42px -22px rgb(15 255 85 / 55%);
 }
 
 .aai-post-thumb {
@@ -1599,6 +1600,9 @@ Blog and Blog Detailss End
   }
 }
 @media (max-width: 576px) {
+  .main-logo{
+    height:45px !important;
+  }
   .aai-hero-one {
     padding: 150px 0 60px 0;
   }
@@ -1629,4 +1633,8 @@ Blog and Blog Detailss End
 
 .aai-footer-navigation-widgets .row{
   justify-content: end;
+}
+
+.main-logo{
+  height:60px;
 }
