@@ -1600,6 +1600,11 @@ Blog and Blog Detailss End
     width: 100%;
   }
 }
+@media (max-width: 1176px) {
+  .aai-feature-box {
+    height: 260px;
+  }
+}
 @media (max-width: 576px) {
   .main-logo{
     height:45px !important;
@@ -1612,8 +1617,11 @@ Blog and Blog Detailss End
     padding: 150px 0 60px 0;
   }
   .aai-hero-one-title {
-    font-size: 35px;
+    font-size: 28px;
     line-height: 1.5;
+  }
+  .hero-animation-text, .hero-for-text{
+    font-size: 28px;
   }
   .aai-hero-two-title {
     font-size: 36px;
